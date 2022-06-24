@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "XPH-Ni-b1K"; */
+"XPH-Ni-b1K.text" = "Nama";
+
+/* Class = "UIButton"; configuration.title = "Select Image"; ObjectID = "aMZ-58-akZ"; */
+"aMZ-58-akZ.configuration.title" = "Pilih Gambar";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "aMZ-58-akZ"; */
+"aMZ-58-akZ.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Website"; ObjectID = "qWI-oq-aYT"; */
+"qWI-oq-aYT.text" = "Situs Web";

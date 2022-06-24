@@ -1,0 +1,71 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '14.0'
+
+source 'https://github.com/dzulfaqaraar/CatalogCore-Spec'
+source 'https://cdn.cocoapods.org/'
+
+use_frameworks!
+
+workspace 'Modularization'
+
+target 'Catalog' do
+  pod 'IGListKit', '~> 4.0.0'
+  pod 'Alamofire'
+  pod 'SDWebImageSwiftUI'
+  pod 'Cleanse'
+  pod 'Core', '~> 1.0.0'
+
+  target 'CatalogTests' do
+  end
+end
+
+target 'Common' do
+  project '../Common/Common'
+  pod 'Alamofire'
+  pod 'SDWebImageSwiftUI'
+  pod 'Core', '~> 1.0.0'
+
+  target 'CommonTests' do
+  end
+end
+
+target 'Profile' do
+  project '../Profile/Profile'
+  pod 'Alamofire'
+  pod 'SDWebImageSwiftUI'
+  pod 'Cleanse'
+  pod 'Core', '~> 1.0.0'
+
+  target 'ProfileTests' do
+  end
+end
+
+target 'Detail' do
+  project '../Detail/Detail'
+  pod 'Alamofire'
+  pod 'SDWebImageSwiftUI'
+  pod 'Cleanse'
+  pod 'Core', '~> 1.0.0'
+
+  target 'DetailTests' do
+  end
+end
+
+target 'Search' do
+  project '../Search/Search'
+  pod 'Alamofire'
+  pod 'SDWebImageSwiftUI'
+  pod 'Cleanse'
+  pod 'Core', '~> 1.0.0'
+
+  target 'SearchTests' do
+  end
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+    end
+  end
+end

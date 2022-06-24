@@ -1,0 +1,13 @@
+before_install:
+  - gem install cocoapods
+install:
+  - brew update && brew upgrade swiftlint
+language: swift
+osx_image: xcode13.4
+xcode_workspace: App/Modularization.xcworkspace
+xcode_scheme: Catalog
+script:
+ - cd App/
+ - pod install --repo-update
+ - swiftlint
+ - xcodebuild test -quiet -workspace 'Modularization.xcworkspace' -scheme 'Catalog' -destination 'platform=iOS Simulator,OS=15.5,name=iPhone 13 Pro'

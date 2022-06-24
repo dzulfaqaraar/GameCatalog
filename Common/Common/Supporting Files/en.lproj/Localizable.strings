@@ -1,0 +1,36 @@
+/* 
+  Localizable.strings
+  Common
+
+  Created by Dzulfaqar on 19/06/22.
+  
+*/
+"profile_title" = "Profile";
+"warning_info" = "Warning";
+"success_info" = "Successful";
+"name_required" = "Your name is required.";
+"website_required" = "Your website is required.";
+"profile_updated" = "Profile updated.";
+
+"main_title" = "Game Catalog";
+"genres_title" = "Genres";
+"favorites_title" = "Favorite";
+"search_title" = "Search Game";
+
+"developer_label" = "Developer :";
+"publisher_label" = "Publisher :";
+"genres_label" = "Genres :";
+"release_date_label" = "Release Date :";
+"rating_label" = "Rating :";
+"description_label" = "Description :";
+
+"save" = "Save";
+"edit" = "Edit";
+"try_again" = "Try again";
+"info" = "Info";
+"close" = "Close";
+"failed_load_data" = "Failed to load data. Something went wrong.";
+"something_went_wrong" = "Something went wrong.";
+"no_internet_connection" = "No internet connection.";
+"request_failed" = "Your request failed.";
+"failed_to_share" = "Failed to share. Something went wrong.";

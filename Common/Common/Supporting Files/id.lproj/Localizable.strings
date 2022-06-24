@@ -1,0 +1,36 @@
+/* 
+  Localizable.strings
+  Common
+
+  Created by Dzulfaqar on 19/06/22.
+  
+*/
+"profile_title" = "Profil";
+"warning_info" = "Peringatan";
+"success_info" = "Berhasil";
+"name_required" = "Nama harus diisi.";
+"website_required" = "Situs Web harus diisi.";
+"profile_updated" = "Profil diubah.";
+
+"main_title" = "Katalog Permainan";
+"genres_title" = "Genre";
+"favorites_title" = "Favorit";
+"search_title" = "Cari Permainan";
+
+"developer_label" = "Pengembang :";
+"publisher_label" = "Penerbit :";
+"genres_label" = "Genre :";
+"release_date_label" = "Tanggal Rilis :";
+"rating_label" = "Peringkat :";
+"description_label" = "Keterangan :";
+
+"save" = "Simpan";
+"edit" = "Ubah";
+"try_again" = "Coba lagi";
+"info" = "Informasi";
+"close" = "Tutup";
+"failed_load_data" = "Gagal memuat data. Terjadi kesalahan.";
+"something_went_wrong" = "Ada yang salah.";
+"no_internet_connection" = "Tidak ada koneksi internet.";
+"request_failed" = "Permintaan Anda gagal.";
+"failed_to_share" = "Gagal membagikan data. Terjadi kesalahan.";
