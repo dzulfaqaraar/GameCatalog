@@ -72,8 +72,7 @@ public class DetailViewModel<GetUseCase: UseCase, InsertUseCase: UseCase, Delete
                     DispatchQueue.main.async {
                         self?.isErrorAlert = true
                     }
-                case .finished:
-                    self?.isLoadingData = false
+                case .finished: break
                 }
             }, receiveValue: { [weak self] result in
                 self?.detailData = result
