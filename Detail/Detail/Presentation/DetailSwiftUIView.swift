@@ -83,7 +83,7 @@ struct DetailSwiftUIView: View {
                 }
             }
         }
-        .edgesIgnoringSafeArea(.all)
+//        .edgesIgnoringSafeArea(.all)
         .overlay(loading, alignment: .center)
         .onAppear {
             viewModel.loadDetail()

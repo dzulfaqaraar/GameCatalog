@@ -13,7 +13,7 @@ import SystemConfiguration
 public enum NetworkEndpoint {
     static let hostname = "api.rawg.io"
     static let baseUrl = "https://\(hostname)/api/"
-    static let apiKey = "17e9b52f83184291bdef3fc98d57406c"
+    static let apiKey = ""
     public static let genres = baseUrl + "genres"
     public static let games = baseUrl + "games"
     public static let detail = baseUrl + "games/"
